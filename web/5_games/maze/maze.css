@@ -1,0 +1,141 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#header {
+    font-weight: bold;
+}
+#result {
+    font-size: 25px;
+    font-weight: bold;
+}
+#left-outside {
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+#right-outside {
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+#bottom-outside {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    float: left;
+    width: 40%;
+    height: 400px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+.wall {
+    background-color: #eeeeee;
+}
+.crashedWall {
+    background-color: red;
+}
+#content > div {
+    float: left;
+}
+#left-top-wall {
+    width: 30%;
+    height: 60%;
+}
+#top-center {
+    width: 40%;
+    height: 60%;
+}
+#top-wall {
+    width: 100%;
+    height: 20%;
+}
+#top-path {
+    width: 100%;
+    height: 20%;
+}
+#left-path {
+    float: left;
+    width: 20%;
+    height: 60%;
+}
+#center-wall {
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+#right-path {
+    float: left;
+    width: 20%;
+    height: 60%;
+}
+#right-top-wall {
+    width: 30%;
+    height: 60%;
+}
+#middle {
+    height: 15%;
+    width: 100%;
+}
+#middle div {
+    float: left;
+}
+#left-middle-path {
+    width: 28%;
+    height: 100%;
+}
+#center-middle-wall {
+    width: 24%;
+    height: 100%;
+}
+#right-middle-path {
+    width: 28%;
+    height: 100%;
+}
+#start {
+    font-size: 45px;
+    width:10%;
+    height: 90%;
+    margin-top: 0.4%;
+    background-color: green;
+}
+#end {
+    font-size: 45px;
+    width:10%;
+    height: 90%;
+    margin-top: 0.4%;
+    background-color: purple;
+}
+#bottom-wall {
+    width: 100%;
+    height: 20%;
+}
+
+p {
+    text-align: left;
+    font-weight: bold;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#wall {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 25px;
+    border: solid 1px;
+    background-color: #eeeeee;
+}

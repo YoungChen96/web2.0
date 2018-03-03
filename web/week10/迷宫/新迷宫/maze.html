@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<link href="style.css" type="text/css" rel ="stylesheet" />
+	<title>Games</title>
+</head>
+<body>
+	<h1>Game</h1>
+	<div id="button">
+		<p id="buttonall">ALL</p>
+		<p>MAZE</p>
+		<p>MOLE</p>
+		<p>3D BALL</p>
+	</div>
+
+	<div id="outline">
+		<div id="maze">
+			<div class="wall" id="o_1"></div>
+			<div class="wall" id="o_2"></div>
+			<div class="wall" id="o_3"></div>
+			<div class="wall" id="o_4"></div>
+			<div class="wall" id="o_5"></div>
+			<div class="wall" id="o_6"></div>
+			<div class="se" id="startpoint"><P>S</P></div>
+			<div class="se" id="endpoint"><p>E</p></div>
+			<img id="pointer" class="imgnormal" src="background2.png">
+		</div>
+		<div id="instruc">
+			<h2>INSTRUCTIONS</h2>
+			<P>The object of this game is to guide the mouse cursor through the start area and get to the end area. Be sure to avoid the wall.</P>
+			<div id="like">
+				<p>Like</p>
+			</div>
+			<p id="copy">© 2016 Michael Chan</p>
+		</div>
+	</div>
+	<div id="upper_checkingcheat"></div>
+	<div id="lowwer_checkingcheat"></div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src = "maze.js"></script>
+</body>
+</html>

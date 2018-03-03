@@ -1,0 +1,1 @@
+alert("it is the functoin\n");// JavaScript Document

@@ -1,0 +1,81 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+#intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100px;
+}
+#intro > div {
+    float: left;
+}
+#operation {
+    float: left;
+    width: 200px;
+    height: 20px;
+}
+#TIME {
+    text-align: right;
+    float: left;
+    margin-left: 50px;
+    width: 240px;
+    height: 20px;
+}
+#times {
+    float: left;
+    width: 100px;
+    height: 14px;
+}
+#stage {
+    margin-top: 10px;
+    border: 1px solid;
+    width: 150px;
+    height: 20px;
+}
+#SCORE {
+    margin-top: 10px;
+    text-align: right;
+    width: 290px;
+    margin-left: 50px;
+    height: 20px;;
+}
+#scores {
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+    height: 14px;
+}
+#box {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 200px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.radio {
+    width: 25px;
+    height: 25px;
+}
+#list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}
+#instructions {
+    text-align: left;
+}
+#instruction li{
+    text-align: left;
+    font-weight: normal;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>puzzle</title>
+	<link rel="stylesheet" type="text/css" href="puzzle_css1.css">
+</head>
+<body>
+<div id="wholePage">
+	<h1 id = "header">puzzle</h1>
+	<div id = "content">
+		<div id="game"></div>
+	</div>
+	
+	<div id="up_bar" class="bar">
+		<div>
+			<button type="button" id = "start" onclick="startGame()">Start</button>
+			<button id="getback">Reset</button>
+		</div>
+	</div>
+	<div id="down_bar" class="bar">
+		<div id="time">Time<input id = "time_bar" type="text"></input></div>
+		<div id="step">Step<input id="step_bar" type="text"></input></div>
+	</div>
+</div>
+<script type="text/javascript" src ="puzzle_js.js"></script>
+</body>
+</html>

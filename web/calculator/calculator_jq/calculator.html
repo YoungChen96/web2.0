@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+    <script type="text/javascript" src="cal_jq_js.js"></script>
+    <link rel="stylesheet" type="text/css" href="cal_style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id=container>
+        <div id=header>
+            <h1>简单计算器</h1>
+        </div>
+        <div id="content">
+            <div id="screen_container">
+                <input type="text" name="screen" id="_display" value ="0" onfocus="this.blur();">
+            </div>
+            <div id="operand">
+                <input type = "button" value = "7" class = "show" onclick = show_click(7) />
+                <input type = "button" value = "8" class = "show" onclick = show_click(8) />
+                <input type = "button" value = "9" class = "show" onclick = show_click(9) />
+                <input type = "button" value = "/" class = "oper" onclick = show_click('/') />
+                <input type = "button" value = "4" class = "show" onclick = show_click(4) />
+                <input type = "button" value = "5" class = "show" onclick = show_click(5) />
+                <input type = "button" value = "6" class = "show" onclick = show_click(6) />
+                <input type = "button" value = "*" class = "oper" onclick = show_click('*') />
+                <input type = "button" value = "1" class = "show" onclick = show_click(1) />
+                <input type = "button" value = "2" class = "show" onclick = show_click(2) />
+                <input type = "button" value = "3" class = "show" onclick = show_click(3) />
+                <input type = "button" value = "-" class = "oper" onclick = show_click('-') />
+                <input type = "button" value = "0" class = "show" onclick = show_click(0) />
+                <input type = "button" value = "." class = "show" onclick = show_click('.') />
+                <input type = "button" value = "←" class = "show" onclick = Delete() />
+                <input type = "button" value = "+" class = "oper" onclick = show_click('+') />
+                <input type = "button" value = "(" class = "show" onclick = show_click('(') />
+                <input type = "button" value = ")" class = "show" onclick = show_click(')') />
+                <input type = "button" value = "CE" class = " show" onclick = Clear() />
+                <input type = "button" value = "=" class = "result" onclick = getResult() />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

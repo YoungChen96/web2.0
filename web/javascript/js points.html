@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>some javascript kownledge points</title>
+	<script type="text/javascript">   // 引用在这里把src值设为文件名
+
+	// 局部变量加上var,否则就是全局变量
+		var msg ="hello world!\n";
+		alert(msg);   // 弹出窗口
+
+		
+		// data type
+		var _string = new String("This is a string.\n");
+		var _number = new Number(12.2);
+		var _boolean = new Boolean(true);
+		document.writeln(_string + "<br/>" + _number + "<br/>" + _boolean + "<br/>"); 
+		document.writeln(parseFloat("123") + parseInt("123.22"));
+
+
+		// operator
+		var _result = _string + _number;
+		document.writeln("<br/>" + _result);
+
+		// some sentences
+		if (_number && _string) {
+			document.writeln("this is meaningful.\n");
+		} else {
+			alert("\n");
+		}
+		var counter = 5;
+		while (counter =="5") couter--;
+		for (i =0; i !==couter; i++) alert(msg);
+		var arrays = [1,2,3];
+		for (index in arrays) {
+			if (arrays[index] ==2) {
+				document.writeln(index + "<br/>");
+				break;
+			}
+		}
+
+
+		// objects
+		var some_bool =new Boolean(false);
+		document.writeln(some_bool.toValue);
+		document.writeln(Number.MAX_VALUE + "<br/>");
+		
+
+		var new_number =new Number(34.8896);
+		document.writeln(new_number.toExponential(3) + "<br/>");
+		document.writeln(new_number.toPrecision(3).toFixed(6) + "<br/>")
+
+		var new_string = new  String();
+		var str = new_string.concat("this is a ", "new string.\n");
+		document.writeln(str);
+		
+		var _date = new Date();
+		document.writeln(_date);
+	</script>
+</head>
+<body>
+
+</body>
+</html>

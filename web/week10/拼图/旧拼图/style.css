@@ -1,0 +1,246 @@
+body
+{
+	font-family: T'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	font-size: 12px;
+}
+#button
+{
+
+	width: 475px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	color: grey;
+}
+
+h1
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+#button p
+{
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 13px;
+	
+}
+#buttonpuzzle
+{
+	border-bottom: solid 2px;
+	border-color: rgb(252,66,37);
+	padding-bottom: 5px;
+	color: black;
+}
+#outline
+{
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ground
+{
+	width: 360px;
+	height: 360px;
+	box-shadow: 6px 6px 6px #888888;
+	background-color: white;
+	position: relative;
+	top: -43px;
+	left: 53px;
+}
+
+#instruc
+{
+	width: 300px;
+	position: relative;
+	top: -480px;
+	left: 510px;
+	margin-top: 80px;
+	font-size: 12px;
+	line-height: 200%;
+	color: grey;
+}
+
+#copy
+{
+	margin-top: 78px;
+	text-align: right;
+	margin-right: 33px;
+}
+
+#play
+{
+	margin-top: 13px;
+	width: 270px;
+	height: 30px;
+	position: relative;
+	left:-6px;
+	border-radius: 5px;
+	background-color: rgb(59,128,226);
+	border:none;
+	color: white;
+	transition-duration: .3s;
+}
+#play:hover
+{
+    background-color: rgb(40,116,226);
+    text-decoration: none;
+    outline: none;
+    box-shadow: 3px 3px 3px #888888; 
+}
+#play:focus 
+{
+	outline: none;
+}
+#play:active
+{
+	 background-color: rgb(226,115,40);
+	 transition-duration: 0s;
+}
+input
+{
+	
+	border:none;
+	margin-top: 15px;
+	font-size: 50px;
+	width: 70px;
+	margin-left: 45px;
+	text-align: center;
+}
+.ts
+{
+	padding-top: 5px;
+	display: inline;
+	
+}
+
+#time
+{
+	position: relative;
+	left: 0px;
+	margin-left: 30px;
+}
+#level
+{
+	margin-left: 50px;
+}
+#ptime
+{
+	margin-left: 55px;
+}
+#plevel
+{
+	margin-left: 88px;
+}
+#nav
+{
+	width:auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-bottom: solid 1px;
+	border-color: rgb(237,237,237);
+	font-size: 14px;
+	padding: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#nav img
+{
+	width:150px;
+	position: relative;
+	top: -3px;
+}
+#nav p
+{
+	display: inline;
+	float: right;
+	position: relative;
+	left: -50px;
+	color: grey;
+}
+#nav button
+{
+	position: relative;
+	top: -37px;
+	float: right;
+	margin-top: 30px;
+	width: 200px;
+	height: 55px;
+	background-color: rgb(255,212,40);
+	border:none;
+	color: black;
+	transition-duration: .3s;
+	font-weight: bold;
+}
+#nav button:hover 
+{
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #888888; 
+	background-color: rgb(255,204,0);
+}
+#nav button:focus
+{
+	outline: none;
+}
+.refer
+{
+	width: 200px;
+}
+#reference
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 25px;
+	margin-bottom: 5px;
+	top: 10px;
+}
+.puzzles
+{
+	position: absolute;
+}
+.gone
+{
+	width: 0px;
+	height: 0px;
+}
+.ref1
+{
+	background-image: url("img/level1.jpg");
+	background-size: 200px 200px;
+}
+.ref2
+{
+	background-image: url("img/level2.jpg");
+	background-size: 200px 200px;
+}
+.ref3
+{
+	background-image: url("img/level3.jpg");
+	background-size: 200px 200px;
+}
+#skip
+{
+	background-color: rgb(255,212,40);
+	border:none;
+	color: black;
+	position: relative;
+	top: -1px;
+	left: 5px;
+}
+#skip:focus
+{
+	outline:none;
+}
+#skip:active
+{
+	background-color: black
+}

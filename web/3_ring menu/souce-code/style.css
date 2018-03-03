@@ -1,0 +1,210 @@
+/* I think I have too much troubles in the positioning */
+
+/* to make the position bottom and center */
+#bottom-positioner {
+    left: 50%;
+    top: 60%;
+    position: fixed;
+}
+
+/* some common chac */
+li {
+	float: left;
+    list-style-type: none;
+}
+img {
+    float: left;
+}
+
+/* small at-plus */
+#button {
+    background-color: grey;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* info */ 
+.info {
+    position: relative;
+	width: 150px;
+    height:150px;
+    border-radius: 50%;
+    left: -60px;
+    top: -50px;
+    background-color: grey;
+    transition: all 0.6s linear;
+    opacity: 0;
+}
+.info img {
+    margin-right: 10px;
+}
+.info li {
+    position: relative;
+}
+
+.user {
+    background-color: grey;
+    left: 10px;
+    top: 15px;
+}
+.user span {
+    color: white;
+    font-weight: bold;
+	font-size: 20px;
+}
+.comment {
+    left: -45px;
+    top: 60px;
+}
+.comment span {
+    position: relative;
+    color: white;
+	font-size: 40px;
+    top: -15px;
+	font-weight: bold;
+}
+.posted {
+    left: -10px;
+    top: 55px;
+}
+.posted span {
+	color: #079E6E;
+	font-size: 20px;
+    font-weight: bold;
+}
+.like {
+    top: 55px;
+}
+.like span {
+    color: #079E6E;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+/* control ring */
+#control-ring li {
+    /*background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;*/
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.mask {
+    background-image: url("assets/images/nomask.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+     left: -40px;
+     top: -170px;
+     opacity: 0;
+     transition: all 0.6s linear;
+ }
+.history {
+    background-image: url("./assets/images/history.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+     left: -40px;
+     top: -210px;
+     opacity: 0;
+     transition: all 0.6s linear;
+}
+.message {
+    background-image: url("./assets/images/message.png");
+     left: -30px;
+     background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+     top: -250px;
+     left: -40px;
+     opacity: 0;
+     transition: all 0.6s linear;
+}
+.setting {
+    background-image: url("./assets/images/setting.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+     left: -40px;
+     top: -290px;
+     opacity: 0;
+     transition: all 0.6s linear;
+}
+.sign {
+    background-image: url("./assets/images/signin.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+     left: -40px;
+     top: -330px;
+     opacity: 0;
+     transition: all 0.6s linear;
+}
+.unread {
+    position: relative;
+    padding: 1px 5px;
+    border-radius: 100%;
+    background-color: red;
+    text-align: center;
+	line-height: 20px;
+	color: white;
+	font-weight: 900;
+    left: 25px;
+    top: -10px;
+
+}
+
+/* at-plus */ 
+.apb {
+    top: -470%;
+    position: relative;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: grey;
+    position:relative;
+    background-repeat: no-repeat;
+    background-image: url("./assets/images/atplus_white.png");
+    background-position: center center;
+    transition: all 0.6s linear;
+}
+
+/* when hover */
+#button:hover .info {
+    opacity: 1;
+    transform: translateY(-120px);
+}
+#button:hover .mask {
+    opacity: 1;
+    transform: translate(-70px, -30px);
+}
+#button:hover .history {
+    opacity: 1;
+    transform: translate(-90px, 10px);
+}
+#button:hover .message {
+    opacity: 1;
+    transform: translate(-70px, 50px);
+}
+#button:hover .setting {
+    opacity: 1;
+    transform: translate(-30px, 70px);
+}
+#button:hover .sign {
+    opacity: 1;
+    transform: translate(20px, 70px);
+}
+#button:hover .icon {
+    background-size: 25px 18px;
+    background-color: rgba(48, 63, 159, 1);
+    background-image: url("assets/images/atplus_green.png");
+    transform: scale(1.5);
+    transition: all 0.6s;
+}

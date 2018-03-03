@@ -1,0 +1,185 @@
+body
+{
+	font-family: T'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	font-size: 12px;
+}
+#button
+{
+
+	width: 475px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	color: grey;
+}
+
+h1
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 60px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+#button p
+{
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 13px;
+	
+}
+#buttonall
+{
+	border-bottom: solid 2px;
+	border-color: rgb(252,66,37);
+	padding-bottom: 5px;
+	color: black;
+}
+#outline
+{
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#maze
+{
+	width: 600px;
+	height: 500px;
+	box-shadow: 6px 6px 6px #888888;
+}
+#o_1
+{
+	width: 150px;
+	height: 400px;
+	background-color: black;
+}
+#o_2
+{
+	width: 300px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	top: -400px;
+	left: 150px;
+}
+#o_3
+{
+	width: 150px;
+	height: 400px;
+	position: relative;
+	top: -450px;
+	left: 450px;
+	background-color: black;
+}
+#o_4
+{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: -400px;
+	background-color: black;
+}
+#o_5
+{
+	width: 200px;
+	height: 400px;
+	position: relative;
+	top: -800px;
+	left: 200px;
+	background-color: black;
+}
+#o_6
+{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: -850px;
+	left: 400px;
+	background-color: black;
+}
+#instruc
+{
+	width: 300px;
+	position: relative;
+	top: -500px;
+	left: 635px;
+	margin-top: 80px;
+	font-size: 12px;
+	line-height: 200%;
+	color: grey;
+	margin-left: 30px;
+}
+.se
+{
+	width: 40px;
+	height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+#startpoint
+{
+	position: relative;
+	top: -960px;
+	left: -1px;
+	background-color: rgb(255,211,52);
+ } 
+#endpoint
+{
+	position: relative;
+	background-color: rgb(255,211,52);
+	top: -1014px;
+	left: 557px;
+}
+#instruc h2
+{
+	font-size: 30px;
+	color: black;
+}
+#like
+{
+	margin-top:30px;
+	width: 300px;
+	height: 32px;
+	background-color: rgb(59,128,226);
+	border-radius: 6px;
+	text-align: center;
+	color: white;
+	font-size: 8px;
+	box-shadow: 3px 3px 3px #888888;
+}
+#like p
+{
+	padding-top: 5px;
+}
+#copy
+{
+	margin-top: 216px;
+	text-align: right;
+}
+.se p
+{
+	padding-top: 13px;
+	font-size: 15px;
+}
+.imgnormal
+{
+	width: 40px;
+	position: relative;
+	top: -1045px;
+	left: -48px;
+	transition-duration: .5s;
+}
+.imgchange
+{
+	transition-duration: .5s;
+	opacity: 0;
+	width: 40px;
+	position: relative;
+	top: -1045px;
+	left: -48px;
+}
+

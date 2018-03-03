@@ -1,0 +1,74 @@
+/* CSS Document */
+
+#login {
+	background: url(image/login.png) no-repeat center;
+	margin: auto;
+	width: 982px;
+	height: 631px;
+}
+
+#register {
+	background:url(image/login.png);
+	margin:auto, auto;
+	padding: 0px;
+}
+
+#head {
+	display: inline-block;
+	color: white;
+	font-family: "楷体";
+	margin-top: 114px;
+	margin-left: 433px;
+	margin-bottom: 0px;
+	font-size: 29px;
+}
+
+#input_message input{
+	font-size: 22px;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c0cdc1;
+	display: inline-block;
+	height: 34px;
+}
+
+#account {
+	margin-left: 324px;
+	width: 351px;
+	margin-top: 40px;
+}
+
+#password {
+	margin-left: 324px;
+	width: 351px;
+	margin-top: 26px;
+}
+
+#check {
+	margin-left: 324px;
+	margin-top: 26px;
+	width: 122px;
+}
+
+#vcode {
+	display: inline-block;
+	margin-top: 26px;
+	float: right;
+	margin-right: 328px;
+}
+
+#jump_forget, #jump_reg{
+	color:#3ed365;
+	display:inline-block;
+	font-family:"楷体";
+}
+
+#jump_forget {
+	margin-top: 50px;
+	margin-left: 46px;
+}
+
+#jump_reg {
+	margin-left:46px;
+	margin-top:3px;
+}

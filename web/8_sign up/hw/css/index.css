@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+#main {
+    margin: 20px auto;
+    width: 600px;
+}
+
+#main * {
+    margin: 20px;
+}
+
+.button {
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 120px;
+}
+
+.hint {
+    color: red;
+    font-size: 15px;
+}

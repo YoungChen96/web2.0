@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>register</title>
+    <meta charset="utf-8" />
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <h1 id="header">登录注册</h1>
+    <div id='register'>
+        <form id='form' action="upload" method="post">
+            用户名
+            <input name="username" type="text" placeholder="以字母开头，3-8位" />
+            <p id="nameBar"></p>
+            学号
+            <input name="number" type="text" placeholder="8位数字" />
+            <p id='numberBar'></p>
+            电话
+            <input name="phone" type="text" placeholder="11位数字" />
+            <p id="phoneBar"></p>
+            邮箱
+            <input name="email" type="textarea" placeholder='a-z || A-Z@example.com' />
+            <p id="emailBar"></p>
+            <input type="reset" value="重置" />
+            <input type="submit" value="提交" />
+        </form>
+    </div>
+</body>

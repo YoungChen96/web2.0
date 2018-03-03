@@ -1,0 +1,50 @@
+body {
+	width: 1024pt;
+	background-attachment: fixed;
+	background-size: 100%;
+	color: rgb(64, 64, 64);
+	font-size: 15pt;
+	font-family: Georgia, serif;
+	background-repeat: no-repeat;
+	background-image: url(http://pinyuan.fzen.com.cn/images/upload/201401/Image/20140115165847189.jpg);
+}
+h1, h2 {
+	word-spacing: 0.2em;
+	color: rgb(17, 164, 1);
+	text-decoration: underline;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", sans-serif;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22pt;
+}
+h2 {
+	font-weight: normal;
+	font-size: 18pt;
+}
+a {
+	color: rgb(164, 164, 0);
+}
+
+div.transbox
+{
+  width: 60%;
+  height: 666px;
+  margin: 11% 42%;
+  background-color: #ffffff;
+  border: 5px outset rgb(164, 164, 0);
+  /* for IE */
+  /*filter:alpha(opacity=60);*/
+  /* CSS3 standard */
+  opacity:0.7;
+}
+
+/*div.transbox p
+{
+  margin: 145px 145px;
+}*/
+.center {
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mouse Maze</title>
+    <link rel="stylesheet" type="text/css" href="maze.css">
+    <script type="text/javascript" src="maze.js"></script>
+</head>
+
+<body>
+    <h1 id="header">The Amazing Mouse Maze!</h1>
+    <h2 id="introduction">Move your mouse the "S" to begin.</h2>
+    <div id="result"></div>
+    <div id="left-outside" onmouseover="cheat();"></div>
+    <div id="content">
+        <div id="left-top-wall" class="wall" onmouseover="crashWall(1)" onmouseout="resetGray(1)"></div>
+        <div id="top-center">
+            <div id="top-wall" class="wall" onmouseover="crashWall(2)" onmouseout="resetGray(2)"></div>
+            <div id="top-path" class="path" onmouseover="reachPath(4)"></div>
+            <div id="left-path" class="path" onmouseover="reachPath(3)"></div>
+            <div id="center-wall" class="wall" onmouseover="crashWall(3)" onmouseout="resetGray(3)"></div>
+            <div id="right-path" class="path" onmouseover="reachPath(5)"></div>
+        </div>
+        <div id="right-top-wall" class="wall" onmouseover="crashWall(4)" onmouseout="resetGray(4)"></div>
+        <div id="middle">
+            <div id="start" onmouseover="reset(); reachPath(1);">S</div>
+            <div id="left-middle-path" class="path" onmouseover="reachPath(2)"></div>
+            <div id="center-middle-wall" class="wall" onmouseover="crashWall(3)" onmouseout="resetGray(3)"></div>
+            <div id="right-middle-path" class="path" onmouseover="reachPath(6)"></div>
+            <div id="end" onmouseover="reachPath(7); judge();">E</div>
+        </div>
+        <div id="bottom-wall" class="wall" onmouseover="crashWall(5);" onmouseout="resetGray(5)"></div>
+    </div>
+    <div id="right-outside" onmouseover="cheat();"></div>
+    <div id="bottom-outside" onmouseover="cheat();">
+        <p>
+            The object of this game is to guide the mouse cursor through the start area and get to the end area.Be sure to avoid the
+            walls:
+        </p>
+        <div id="wall"></div>
+        <p>Good luck!</p>
+    </div>
+
+</body>
+
+</html>

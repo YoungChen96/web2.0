@@ -1,0 +1,43 @@
+/* CSS Document */
+
+
+#log_sign {
+	background: url(image/login.png);
+	width: 1006px;
+	height: 620px;
+	background-repeat: no-repeat;
+	font-family: "楷体";
+	color: white;
+	font-size: 26px;
+	vertical-align: middle;
+	margin-top: 115px;
+	margin-left: 25%;
+	/* [disabled]margin-bottom: 115px; */
+	position: static;
+}
+
+#login {
+	width: 840px;
+	line-height: 69px;
+	padding-top: 123px;
+	padding-bottom: 125px;
+	margin-top: 60px;
+	margin-left: -7px;
+	padding-left: 0px;
+}
+
+#head {
+	margin-bottom: 6px;
+}
+
+#account_password input{
+	background-color: transparent;
+	border: 0;
+	border-bottom: #ffffff 1px solid;
+	font-size:18px;
+	color: white;
+}
+
+#logname {
+	padding-right: 141px;
+}
