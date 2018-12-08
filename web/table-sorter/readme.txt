@@ -1,5 +1,5 @@
-$.getScript("https://rawgit.com/15331094/tablesorter/gh-pages/jquery.tablesorter.js",function(){$("table").tablesorter();});
-ÒòÎª×Ô¼ºĞ´µÄtablesorterÃ»ÓĞÆÕÊÊĞÔ£¬ËùÒÔÖ»ÄÜÒıÓÃÍøÉÏµÄJS²å¼ş¿âÁË¡£¿ÉÅÅĞòµÄÍøÒ³ÓĞ£º
+$.getScript("https://cdn.jsdelivr.net/gh/15331094/tablesorter@gh-pages/jquery.tablesorter.js",function(){$("table").tablesorter();});
+ï¿½ï¿½Îªï¿½Ô¼ï¿½Ğ´ï¿½ï¿½tablesorterÃ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½JSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½Ğ£ï¿½
 http://soj.sysu.edu.cn/courses.php
 https://www.top500.org/lists/2016/06/
 http://www.tiobe.com/tiobe-index/
